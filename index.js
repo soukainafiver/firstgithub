@@ -6,7 +6,7 @@ const port = 3598
 
 const movies = {
     "titanic": "dicaprio , kate ,", 
-    "Iron man": "james , eric",
+    "Iron man": "james , eric,amine",
 }
 app.get("/movies/:id",(req, resp) => { 
     if (movies[req.params.id] == undefined) { 
