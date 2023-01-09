@@ -24,6 +24,6 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: '$(Build.SourcesDirectory)/dockerfile'
+        dockerfile: 'https://dev.azure.com/SoukainaServices/_git/MoviesAPI?path=/dockerfile'
         tags: |
           $(tag)
