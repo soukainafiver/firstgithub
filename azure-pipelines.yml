@@ -24,6 +24,6 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: 'https://dev.azure.com/SoukainaServices/_git/MoviesAPI?path=/dockerfile'
+        dockerfile: 'https://hub.docker.com/repository/docker/soukainafiver/firstrepo/general'
         tags: |
           $(tag)
