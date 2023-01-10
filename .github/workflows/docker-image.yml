@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file dockerfile --tag soukainafiver/firstrepo:$(date +%s)
       
     - name: Docker Push
-      run: docker push soukainafiver/firstrepo
+      run: docker push soukainafiver/firstrepo:$(date +%s)
