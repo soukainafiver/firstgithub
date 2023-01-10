@@ -5,7 +5,7 @@ const app = express()
 const port = 3598
 
 const movies = {
-    "titanic": "dicaprio , kate ,", 
+    "titanic": "dicaprio , kate ", 
     "Iron man": "james , eric,amine",
 }
 app.get("/movies/:id",(req, resp) => { 
